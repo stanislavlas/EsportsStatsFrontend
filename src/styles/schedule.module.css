@@ -1,0 +1,16 @@
+.container::-webkit-scrollbar {
+    /*display: none;*/
+    width: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #00c8c8;
+    border-radius: 10px;
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    margin:auto;
+    overflow-y: scroll;
+}
